@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posto de Gasolina</title>
+    <script src="postoGasolina.js"></script>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            background-color: rgb(249, 230, 211);
+        }
+
+        .gasolina, .alcool{
+            text-align: center;
+            background-color: rgb(216, 249, 31);
+            color: rgb(107, 167, 220);
+        }
+
+    
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="gasolina" colspan="4">Gasolina</th>
+        </tr>
+        <tr>
+            <th>Até 20L</th>
+            <th>4% de Desconto</th>
+            <th>Acima de 20L</th>
+            <th>6% de Desconto</th>
+        </tr>
+        <tr>
+            <th class="alcool" colspan="4">Álcool</th>
+        </tr>
+        <tr>
+            <th>Até 20L</th>
+            <th>3% de Desconto</th>
+            <th>Acima de 20L</th>
+            <th>5% de Desconto</th>
+        </tr>
+    </table>
+</body>
+</html>
